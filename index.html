@@ -20,9 +20,11 @@
   </head>
   <body>
     <!-- navbar -->
-    <nav class="navbar navbar-expand-lg navbar-dark p-3">
+    <nav class="navbar navbar-expand-lg navbar-dark p-3 fixed-top">
       <div class="container-fluid">
-        <a class="navbar-brand" href="#"><img src="images/logo.png" alt="" /></a>
+        <a class="navbar-brand" href="#"
+          ><img src="images/logo.png" alt=""
+        /></a>
         <button
           class="navbar-toggler"
           type="button"
@@ -37,13 +39,16 @@
         <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="navbar-nav ms-auto">
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#">Home</a>
+              <a class="nav-link active" href="/">Home</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">About</a>
+              <a class="nav-link" href="#about">About</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Skills</a>
+              <a class="nav-link" href="#skill">Skills</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Projects</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#">Experience</a>
@@ -61,23 +66,686 @@
 
     <!-- Home -->
     <div
-      class="container-fluid content d-flex align-items-center justify-content-center"
+      class="container-fluid content d-flex align-items-center justify-content-center section"
+      id="content"
     >
       <div class="row align-items-center justify-content-center">
         <div class="col-auto">
-          <img src="images/image.png" alt="" class="img-fluid mx-auto d-block" />
+          <img
+            src="images/image.png"
+            alt=""
+            class="img-fluid mx-auto d-block"
+          />
         </div>
         <div class="col-auto">
           <h1>
-            I'm Craig Ben Cadag <br/>
+            I'm Craig Ben Cadag <br />
             Junior Web Developer
           </h1>
           <div class="btn-container">
-            <a href="files/Cadag, Craig Ben L. Resume.pdf" download="Craig_Ben_Cadag_Resume.pdf" class="btn btn-danger btn-md">Resume</a>
+            <a
+              href="files/Cadag, Craig Ben L. Resume.pdf"
+              download="Craig_Ben_Cadag_Resume.pdf"
+              class="btn btn-danger btn-md"
+              >Resume</a
+            >
           </div>
         </div>
       </div>
     </div>
+
+    <!-- About -->
+    <div
+      class="container-fluid about d-flex align-items-center section"
+      id="about"
+    >
+      <div class="row justify-content-center">
+        <div class="col-12 col-md-10 col-lg-8 text-center">
+          <h1 class="my-5">About</h1>
+          <h4 class="my-5">
+            Enthusiastic and detail-oriented Junior Web Developer with hands-on
+            experience in creating dynamic and responsive websites. Proficient
+            in HTML, CSS, JavaScript, and PHP, with a familiarity in front-end
+            technologies like React and Bootstrap, and back-end frameworks such
+            as Express.js and Laravel. Additionally, experienced with other
+            programming languages including Python, Java, and C++. Adept at
+            collaborating in team environments to deliver high-quality web
+            applications. Passionate about learning new technologies and
+            improving coding skills to contribute effectively to development
+            projects.
+          </h4>
+        </div>
+      </div>
+    </div>
+
+    <!-- Skill -->
+    <div
+      class="container-fluid skill d-flex align-items-center section"
+      id="skill"
+    >
+      <div class="col-6 text-center">
+        <h1>skills</h1>
+      </div>
+      <div class="col-6 p-5">
+        <div class="d-flex flex-wrap justify-content-center">
+          <!-- HTML Modal -->
+          <button
+            class="btn btn-primary m-1"
+            data-bs-toggle="modal"
+            data-bs-target="#htmlModal"
+          >
+            HTML
+          </button>
+          <div
+            class="modal fade"
+            id="htmlModal"
+            tabindex="-1"
+            aria-labelledby="htmlModalLabel"
+            aria-hidden="true"
+          >
+            <div class="modal-dialog modal-dialog-centered">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="htmlModalLabel">HTML</h5>
+                </div>
+                <div class="modal-body">
+                  <p>
+                    HTML stands for HyperText Markup Language. It is the
+                    standard markup language used to create and design web
+                    pages.
+                  </p>
+                </div>
+                <div class="modal-footer">
+                  <button
+                    type="button"
+                    class="btn btn-secondary"
+                    data-bs-dismiss="modal"
+                  >
+                    Close
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- CSS Modal -->
+          <button
+            class="btn btn-primary m-1"
+            data-bs-toggle="modal"
+            data-bs-target="#cssModal"
+          >
+            CSS
+          </button>
+          <div
+            class="modal fade"
+            id="cssModal"
+            tabindex="-1"
+            aria-labelledby="cssModalLabel"
+            aria-hidden="true"
+          >
+            <div class="modal-dialog modal-dialog-centered">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="cssModalLabel">CSS</h5>
+                </div>
+                <div class="modal-body">
+                  <p>
+                    CSS stands for Cascading Style Sheets. It is used to control
+                    the presentation, formatting, and layout of HTML elements on
+                    a web page.
+                  </p>
+                </div>
+                <div class="modal-footer">
+                  <button
+                    type="button"
+                    class="btn btn-secondary"
+                    data-bs-dismiss="modal"
+                  >
+                    Close
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- JavaScript Modal -->
+          <button
+            class="btn btn-primary m-1"
+            data-bs-toggle="modal"
+            data-bs-target="#javascriptModal"
+          >
+            JavaScript
+          </button>
+          <div
+            class="modal fade"
+            id="javascriptModal"
+            tabindex="-1"
+            aria-labelledby="javascriptModalLabel"
+            aria-hidden="true"
+          >
+            <div class="modal-dialog modal-dialog-centered">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="javascriptModalLabel">
+                    JavaScript
+                  </h5>
+                </div>
+                <div class="modal-body">
+                  <p>
+                    JavaScript is a programming language used to create
+                    interactive effects within web browsers. It is widely used
+                    for client-side scripting.
+                  </p>
+                </div>
+                <div class="modal-footer">
+                  <button
+                    type="button"
+                    class="btn btn-secondary"
+                    data-bs-dismiss="modal"
+                  >
+                    Close
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- PHP Modal -->
+          <button
+            class="btn btn-primary m-1"
+            data-bs-toggle="modal"
+            data-bs-target="#phpModal"
+          >
+            PHP
+          </button>
+          <div
+            class="modal fade"
+            id="phpModal"
+            tabindex="-1"
+            aria-labelledby="phpModalLabel"
+            aria-hidden="true"
+          >
+            <div class="modal-dialog modal-dialog-centered">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="phpModalLabel">PHP</h5>
+                </div>
+                <div class="modal-body">
+                  <p>
+                    PHP is a server-side scripting language designed for web
+                    development. It is used to create dynamic web pages and
+                    handle forms, databases, and more.
+                  </p>
+                </div>
+                <div class="modal-footer">
+                  <button
+                    type="button"
+                    class="btn btn-secondary"
+                    data-bs-dismiss="modal"
+                  >
+                    Close
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Laravel Modal -->
+          <button
+            class="btn btn-primary m-1"
+            data-bs-toggle="modal"
+            data-bs-target="#laravelModal"
+          >
+            Laravel
+          </button>
+          <div
+            class="modal fade"
+            id="laravelModal"
+            tabindex="-1"
+            aria-labelledby="laravelModalLabel"
+            aria-hidden="true"
+          >
+            <div class="modal-dialog modal-dialog-centered">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="laravelModalLabel">Laravel</h5>
+                </div>
+                <div class="modal-body">
+                  <p>
+                    Laravel is a PHP framework used for building scalable web
+                    applications following the Model-View-Controller (MVC)
+                    architectural pattern.
+                  </p>
+                </div>
+                <div class="modal-footer">
+                  <button
+                    type="button"
+                    class="btn btn-secondary"
+                    data-bs-dismiss="modal"
+                  >
+                    Close
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- MySQL Modal -->
+          <button
+            class="btn btn-primary m-1"
+            data-bs-toggle="modal"
+            data-bs-target="#mysqlModal"
+          >
+            MySQL
+          </button>
+          <div
+            class="modal fade"
+            id="mysqlModal"
+            tabindex="-1"
+            aria-labelledby="mysqlModalLabel"
+            aria-hidden="true"
+          >
+            <div class="modal-dialog modal-dialog-centered">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="mysqlModalLabel">MySQL</h5>
+                </div>
+                <div class="modal-body">
+                  <p>
+                    MySQL is an open-source relational database management
+                    system (RDBMS) that uses Structured Query Language (SQL) for
+                    managing and manipulating data in databases.
+                  </p>
+                </div>
+                <div class="modal-footer">
+                  <button
+                    type="button"
+                    class="btn btn-secondary"
+                    data-bs-dismiss="modal"
+                  >
+                    Close
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Bootstrap Modal -->
+          <button
+            class="btn btn-primary m-1"
+            data-bs-toggle="modal"
+            data-bs-target="#bootstrapModal"
+          >
+            Bootstrap
+          </button>
+          <div
+            class="modal fade"
+            id="bootstrapModal"
+            tabindex="-1"
+            aria-labelledby="bootstrapModalLabel"
+            aria-hidden="true"
+          >
+            <div class="modal-dialog modal-dialog-centered">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="bootstrapModalLabel">
+                    Bootstrap
+                  </h5>
+                </div>
+                <div class="modal-body">
+                  <p>
+                    Bootstrap is a popular front-end framework for building
+                    responsive and mobile-first websites. It includes CSS and
+                    JavaScript components for UI design.
+                  </p>
+                </div>
+                <div class="modal-footer">
+                  <button
+                    type="button"
+                    class="btn btn-secondary"
+                    data-bs-dismiss="modal"
+                  >
+                    Close
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- jQuery Modal -->
+          <button
+            class="btn btn-primary m-1"
+            data-bs-toggle="modal"
+            data-bs-target="#jqueryModal"
+          >
+            jQuery
+          </button>
+          <div
+            class="modal fade"
+            id="jqueryModal"
+            tabindex="-1"
+            aria-labelledby="jqueryModalLabel"
+            aria-hidden="true"
+          >
+            <div class="modal-dialog modal-dialog-centered">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="jqueryModalLabel">jQuery</h5>
+                </div>
+                <div class="modal-body">
+                  <p>
+                    jQuery is a fast, small, and feature-rich JavaScript
+                    library. It simplifies client-side scripting of HTML and
+                    provides various utilities for handling events, animations,
+                    and AJAX.
+                  </p>
+                </div>
+                <div class="modal-footer">
+                  <button
+                    type="button"
+                    class="btn btn-secondary"
+                    data-bs-dismiss="modal"
+                  >
+                    Close
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Node.js Modal -->
+          <button
+            class="btn btn-primary m-1"
+            data-bs-toggle="modal"
+            data-bs-target="#nodejsModal"
+          >
+            Node.js
+          </button>
+          <div
+            class="modal fade"
+            id="nodejsModal"
+            tabindex="-1"
+            aria-labelledby="nodejsModalLabel"
+            aria-hidden="true"
+          >
+            <div class="modal-dialog modal-dialog-centered">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="nodejsModalLabel">Node.js</h5>
+                </div>
+                <div class="modal-body">
+                  <p>
+                    Node.js is a server-side platform built on Chrome's
+                    JavaScript runtime (V8 engine). It allows developers to
+                    build scalable network applications using JavaScript.
+                  </p>
+                </div>
+                <div class="modal-footer">
+                  <button
+                    type="button"
+                    class="btn btn-secondary"
+                    data-bs-dismiss="modal"
+                  >
+                    Close
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Express.js Modal -->
+          <button
+            class="btn btn-primary m-1"
+            data-bs-toggle="modal"
+            data-bs-target="#expressjsModal"
+          >
+            Express.js
+          </button>
+          <div
+            class="modal fade"
+            id="expressjsModal"
+            tabindex="-1"
+            aria-labelledby="expressjsModalLabel"
+            aria-hidden="true"
+          >
+            <div class="modal-dialog modal-dialog-centered">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="expressjsModalLabel">
+                    Express.js
+                  </h5>
+                </div>
+                <div class="modal-body">
+                  <p>
+                    Express.js is a minimal and flexible Node.js web application
+                    framework that provides a robust set of features to develop
+                    web and mobile applications.
+                  </p>
+                </div>
+                <div class="modal-footer">
+                  <button
+                    type="button"
+                    class="btn btn-secondary"
+                    data-bs-dismiss="modal"
+                  >
+                    Close
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- React Modal -->
+          <button
+            class="btn btn-primary m-1"
+            data-bs-toggle="modal"
+            data-bs-target="#reactModal"
+          >
+            React
+          </button>
+          <div
+            class="modal fade"
+            id="reactModal"
+            tabindex="-1"
+            aria-labelledby="reactModalLabel"
+            aria-hidden="true"
+          >
+            <div class="modal-dialog modal-dialog-centered">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="reactModalLabel">React</h5>
+                </div>
+                <div class="modal-body">
+                  <p>
+                    React is a JavaScript library for building user interfaces.
+                    It allows developers to create reusable UI components and
+                    efficiently manage the state of web applications.
+                  </p>
+                </div>
+                <div class="modal-footer">
+                  <button
+                    type="button"
+                    class="btn btn-secondary"
+                    data-bs-dismiss="modal"
+                  >
+                    Close
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Python Modal -->
+          <button
+            class="btn btn-primary m-1"
+            data-bs-toggle="modal"
+            data-bs-target="#pythonModal"
+          >
+            Python
+          </button>
+          <div
+            class="modal fade"
+            id="pythonModal"
+            tabindex="-1"
+            aria-labelledby="pythonModalLabel"
+            aria-hidden="true"
+          >
+            <div class="modal-dialog modal-dialog-centered">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="pythonModalLabel">Python</h5>
+                </div>
+                <div class="modal-body">
+                  <p>
+                    Python is a high-level programming language known for its
+                    simplicity and readability. It is widely used for web
+                    development, scientific computing, data analysis, and
+                    artificial intelligence.
+                  </p>
+                </div>
+                <div class="modal-footer">
+                  <button
+                    type="button"
+                    class="btn btn-secondary"
+                    data-bs-dismiss="modal"
+                  >
+                    Close
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Java Modal -->
+          <button
+            class="btn btn-primary m-1"
+            data-bs-toggle="modal"
+            data-bs-target="#javaModal"
+          >
+            Java
+          </button>
+          <div
+            class="modal fade"
+            id="javaModal"
+            tabindex="-1"
+            aria-labelledby="javaModalLabel"
+            aria-hidden="true"
+          >
+            <div class="modal-dialog modal-dialog-centered">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="javaModalLabel">Java</h5>
+                </div>
+                <div class="modal-body">
+                  <p>
+                    Java is a widely-used programming language for building
+                    enterprise-scale applications. It follows the principle of
+                    "write once, run anywhere" (WORA) across different
+                    platforms.
+                  </p>
+                </div>
+                <div class="modal-footer">
+                  <button
+                    type="button"
+                    class="btn btn-secondary"
+                    data-bs-dismiss="modal"
+                  >
+                    Close
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- C++ Modal -->
+          <button
+            class="btn btn-primary m-1"
+            data-bs-toggle="modal"
+            data-bs-target="#cppModal"
+          >
+            C++
+          </button>
+          <div
+            class="modal fade"
+            id="cppModal"
+            tabindex="-1"
+            aria-labelledby="cppModalLabel"
+            aria-hidden="true"
+          >
+            <div class="modal-dialog modal-dialog-centered">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="cppModalLabel">C++</h5>
+                </div>
+                <div class="modal-body">
+                  <p>
+                    C++ is a powerful and efficient programming language. It is
+                    widely used for system/application software, game
+                    development, and embedded firmware.
+                  </p>
+                </div>
+                <div class="modal-footer">
+                  <button
+                    type="button"
+                    class="btn btn-secondary"
+                    data-bs-dismiss="modal"
+                  >
+                    Close
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script>
+      document.addEventListener("DOMContentLoaded", function () {
+        const navLinks = document.querySelectorAll(".navbar-nav .nav-link");
+
+        navLinks.forEach((link) => {
+          link.addEventListener("click", function () {
+            // Remove active class from all links
+            navLinks.forEach((navLink) => navLink.classList.remove("active"));
+
+            // Add active class to the clicked link
+            this.classList.add("active");
+          });
+        });
+      });
+
+      // Function to check which section is currently active based on scroll position
+      function updateActiveLink() {
+        const sections = document.querySelectorAll(".section");
+        const navLinks = document.querySelectorAll(".navbar-nav .nav-link");
+
+        sections.forEach((section) => {
+          const sectionTop = section.offsetTop - 50;
+          const sectionHeight = section.offsetHeight;
+          const scrollPosition = window.scrollY;
+
+          if (
+            scrollPosition >= sectionTop &&
+            scrollPosition < sectionTop + sectionHeight
+          ) {
+            const sectionId = section.getAttribute("id");
+            navLinks.forEach((link) => {
+              if (link.getAttribute("href") === `#${sectionId}`) {
+                link.classList.add("active");
+              } else {
+                link.classList.remove("active");
+              }
+            });
+          }
+        });
+      }
+
+      // Add event listeners for scroll and initial load
+      window.addEventListener("scroll", updateActiveLink);
+      window.addEventListener("DOMContentLoaded", updateActiveLink);
+    </script>
+
     <script
       src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
       integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"

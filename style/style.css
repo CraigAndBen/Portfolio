@@ -7,14 +7,28 @@
 .navbar {
   background-color: #0f67b1;
 }
+
+.navbar-nav .nav-link.active {
+  color: #333; /* Change to your preferred active link color */
+}
+
 .navbar-brand img {
   height: 35px;
   width: auto;
 }
 
 .content {
-  height: 90vh;
-  background-color: #96c9f4;
+  height: 100vh;
+  background: linear-gradient(
+    150deg,
+    rgb(196, 228, 253),
+    /* Fully opaque light blue */ #007bff /* Darker blue */
+  );
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
 }
 
 .content img {
@@ -97,4 +111,66 @@
 }
 .content a.btn {
   animation: flyInRight 1s ease-in-out;
+}
+
+/* About */
+
+.about {
+  height: 100vh;
+}
+
+.skill {
+  height: 100vh;
+  background: linear-gradient(
+    -150deg,
+    rgb(196, 228, 253),
+    /* Fully opaque light blue */ #007bff /* Darker blue */
+  );
+}
+
+.skill h1 {
+  color: white;
+}
+
+/* Customize modal background */
+.modal-content {
+  background-color: #ffffff;
+  color: #333333; /* Text color */
+  border-radius: 10px;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1); /* Optional: Add a subtle shadow */
+}
+
+/* Customize modal header */
+.modal-header {
+  background-color: #007bff; /* Header background color */
+  color: #ffffff; /* Header text color */
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+/* Customize modal title */
+.modal-title {
+  font-weight: bold;
+}
+
+/* Customize modal body */
+.modal-body {
+  padding: 20px;
+}
+
+/* Customize modal footer */
+.modal-footer {
+  background-color: #f8f9fa; /* Footer background color */
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+/* Close button style */
+.btn-close {
+  color: #ffffff; /* Close button color */
+}
+
+/* Optional: Adjust modal size */
+.modal-dialog {
+  max-width: 600px; /* Adjust modal maximum width */
 }
