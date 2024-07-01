@@ -54,12 +54,6 @@
               <a class="nav-link" href="#project">Projects</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Experience</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Education</a>
-            </li>
-            <li class="nav-item">
               <a class="nav-link" href="#">Contact</a>
             </li>
           </ul>
@@ -98,25 +92,45 @@
     </div>
 
     <!-- About -->
-    <div
-      class="container-fluid about d-flex align-items-center section"
-      id="about"
-    >
-      <div class="row justify-content-center">
-        <div class="col-12 col-md-10 col-lg-8 text-center">
-          <h1 class="my-5">About</h1>
-          <h4 class="my-5">
-            Enthusiastic and detail-oriented Junior Web Developer with hands-on
-            experience in creating dynamic and responsive websites. Proficient
-            in HTML, CSS, JavaScript, and PHP, with a familiarity in front-end
-            technologies like React and Bootstrap, and back-end frameworks such
-            as Express.js and Laravel. Additionally, experienced with other
-            programming languages including Python, Java, and C++. Adept at
-            collaborating in team environments to deliver high-quality web
-            applications. Passionate about learning new technologies and
-            improving coding skills to contribute effectively to development
-            projects.
-          </h4>
+    <div class="container about section" id="about">
+      <div class="row text-center mt-5">
+        <h1><b>About</b></h1>
+        <h4 class="my-5">
+          Enthusiastic and detail-oriented Junior Web Developer with hands-on
+          experience in creating dynamic and responsive websites. Proficient in
+          HTML, CSS, JavaScript, and PHP, with a familiarity in front-end
+          technologies like React and Bootstrap, and back-end frameworks such as
+          Express.js and Laravel. Additionally, experienced with other
+          programming languages including Python, Java, and C++. Adept at
+          collaborating in team environments to deliver high-quality web
+          applications. Passionate about learning new technologies and improving
+          coding skills to contribute effectively to development projects.
+        </h4>
+      </div>
+      <div class="row d-flex justify-content-around">
+        <div class="col-5 about-col m-1 p-100 my-5">
+          <h1><b>Education</b></h1>
+          <hr>
+          <br>
+          <h3><b>Camarines Sur Polytechnic Colleges</b></h3>
+          <h3>Bachelor of Science in Information Technology</h3>
+          <h4><i>2020 - 2024</i></h4>
+          <h4><i>2023 - Deans Lister</i></h4>
+          <h4><i>2024 - President Lister</i></h4>
+          <h3>GWA: 1.39</h4>
+        </div>
+        <div class="col-6 about-col m-1 p-100 my-5">
+          <h1><b>Experience</b></h1>
+          <hr>
+          <br>
+          <h3><b>Full Stack Developer | Intern</b></h3>
+          <h4>Bureau of Fire Protection Ligao CIty Fire Station | 2024</h4><br>
+          <h3><b>Full Stack Developer</b></h3>
+          <h4>Medical Mission Group Hospital and Health Services Cooperative of
+            Camarines Sur, Sta. Elena, Baras, Nabua, Camarines Sur | 2022</h4><br>
+          <h3><b> IT Support Specialist | Immersion</b></h3>
+          <h4>Medical Mission Group Hospital and Health Services Cooperative of
+            Camarines Sur, Sta. Elena, Baras, Nabua, Camarines Sur | 2020</h4>
         </div>
       </div>
     </div>
@@ -133,7 +147,7 @@
         <div class="d-flex flex-wrap justify-content-center">
           <!-- HTML Modal -->
           <button
-            class="btn btn-primary m-1"
+            class="btn btn-primary btn-lg m-1"
             data-bs-toggle="modal"
             data-bs-target="#htmlModal"
           >
@@ -146,7 +160,7 @@
             aria-labelledby="htmlModalLabel"
             aria-hidden="true"
           >
-            <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-dialog skill-modal modal-dialog-centered">
               <div class="modal-content">
                 <div class="modal-header">
                   <h5 class="modal-title" id="htmlModalLabel">HTML</h5>
@@ -173,7 +187,7 @@
 
           <!-- CSS Modal -->
           <button
-            class="btn btn-primary m-1"
+            class="btn btn-primary m-1 btn-lg"
             data-bs-toggle="modal"
             data-bs-target="#cssModal"
           >
@@ -186,7 +200,7 @@
             aria-labelledby="cssModalLabel"
             aria-hidden="true"
           >
-            <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-dialog skill-modal modal-dialog-centered">
               <div class="modal-content">
                 <div class="modal-header">
                   <h5 class="modal-title" id="cssModalLabel">CSS</h5>
@@ -213,7 +227,7 @@
 
           <!-- JavaScript Modal -->
           <button
-            class="btn btn-primary m-1"
+            class="btn btn-primary m-1 btn-lg"
             data-bs-toggle="modal"
             data-bs-target="#javascriptModal"
           >
@@ -226,7 +240,7 @@
             aria-labelledby="javascriptModalLabel"
             aria-hidden="true"
           >
-            <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-dialog skill-modal modal-dialog-centered">
               <div class="modal-content">
                 <div class="modal-header">
                   <h5 class="modal-title" id="javascriptModalLabel">
@@ -255,7 +269,7 @@
 
           <!-- PHP Modal -->
           <button
-            class="btn btn-primary m-1"
+            class="btn btn-primary m-1 btn-lg"
             data-bs-toggle="modal"
             data-bs-target="#phpModal"
           >
@@ -268,7 +282,7 @@
             aria-labelledby="phpModalLabel"
             aria-hidden="true"
           >
-            <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-dialog skill-modal modal-dialog-centered">
               <div class="modal-content">
                 <div class="modal-header">
                   <h5 class="modal-title" id="phpModalLabel">PHP</h5>
@@ -295,7 +309,7 @@
 
           <!-- Laravel Modal -->
           <button
-            class="btn btn-primary m-1"
+            class="btn btn-primary m-1 btn-lg"
             data-bs-toggle="modal"
             data-bs-target="#laravelModal"
           >
@@ -308,7 +322,7 @@
             aria-labelledby="laravelModalLabel"
             aria-hidden="true"
           >
-            <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-dialog skill-modal modal-dialog-centered">
               <div class="modal-content">
                 <div class="modal-header">
                   <h5 class="modal-title" id="laravelModalLabel">Laravel</h5>
@@ -335,7 +349,7 @@
 
           <!-- MySQL Modal -->
           <button
-            class="btn btn-primary m-1"
+            class="btn btn-primary m-1 btn-lg"
             data-bs-toggle="modal"
             data-bs-target="#mysqlModal"
           >
@@ -348,7 +362,7 @@
             aria-labelledby="mysqlModalLabel"
             aria-hidden="true"
           >
-            <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-dialog skill-modal modal-dialog-centered">
               <div class="modal-content">
                 <div class="modal-header">
                   <h5 class="modal-title" id="mysqlModalLabel">MySQL</h5>
@@ -375,7 +389,7 @@
 
           <!-- Bootstrap Modal -->
           <button
-            class="btn btn-primary m-1"
+            class="btn btn-primary m-1 btn-lg"
             data-bs-toggle="modal"
             data-bs-target="#bootstrapModal"
           >
@@ -388,7 +402,7 @@
             aria-labelledby="bootstrapModalLabel"
             aria-hidden="true"
           >
-            <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-dialog skill-modal modal-dialog-centered">
               <div class="modal-content">
                 <div class="modal-header">
                   <h5 class="modal-title" id="bootstrapModalLabel">
@@ -417,7 +431,7 @@
 
           <!-- jQuery Modal -->
           <button
-            class="btn btn-primary m-1"
+            class="btn btn-primary m-1 btn-lg"
             data-bs-toggle="modal"
             data-bs-target="#jqueryModal"
           >
@@ -430,7 +444,7 @@
             aria-labelledby="jqueryModalLabel"
             aria-hidden="true"
           >
-            <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-dialog skill-modal modal-dialog-centered">
               <div class="modal-content">
                 <div class="modal-header">
                   <h5 class="modal-title" id="jqueryModalLabel">jQuery</h5>
@@ -458,7 +472,7 @@
 
           <!-- Node.js Modal -->
           <button
-            class="btn btn-primary m-1"
+            class="btn btn-primary m-1 btn-lg"
             data-bs-toggle="modal"
             data-bs-target="#nodejsModal"
           >
@@ -471,7 +485,7 @@
             aria-labelledby="nodejsModalLabel"
             aria-hidden="true"
           >
-            <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-dialog skill-modal modal-dialog-centered">
               <div class="modal-content">
                 <div class="modal-header">
                   <h5 class="modal-title" id="nodejsModalLabel">Node.js</h5>
@@ -498,7 +512,7 @@
 
           <!-- Express.js Modal -->
           <button
-            class="btn btn-primary m-1"
+            class="btn btn-primary m-1 btn-lg"
             data-bs-toggle="modal"
             data-bs-target="#expressjsModal"
           >
@@ -511,7 +525,7 @@
             aria-labelledby="expressjsModalLabel"
             aria-hidden="true"
           >
-            <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-dialog skill-modal modal-dialog-centered">
               <div class="modal-content">
                 <div class="modal-header">
                   <h5 class="modal-title" id="expressjsModalLabel">
@@ -540,7 +554,7 @@
 
           <!-- React Modal -->
           <button
-            class="btn btn-primary m-1"
+            class="btn btn-primary m-1 btn-lg"
             data-bs-toggle="modal"
             data-bs-target="#reactModal"
           >
@@ -553,7 +567,7 @@
             aria-labelledby="reactModalLabel"
             aria-hidden="true"
           >
-            <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-dialog skill-modal modal-dialog-centered">
               <div class="modal-content">
                 <div class="modal-header">
                   <h5 class="modal-title" id="reactModalLabel">React</h5>
@@ -580,7 +594,7 @@
 
           <!-- Python Modal -->
           <button
-            class="btn btn-primary m-1"
+            class="btn btn-primary m-1 btn-lg"
             data-bs-toggle="modal"
             data-bs-target="#pythonModal"
           >
@@ -593,7 +607,7 @@
             aria-labelledby="pythonModalLabel"
             aria-hidden="true"
           >
-            <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-dialog skill-modal modal-dialog-centered">
               <div class="modal-content">
                 <div class="modal-header">
                   <h5 class="modal-title" id="pythonModalLabel">Python</h5>
@@ -621,7 +635,7 @@
 
           <!-- Java Modal -->
           <button
-            class="btn btn-primary m-1"
+            class="btn btn-primary m-1 btn-lg"
             data-bs-toggle="modal"
             data-bs-target="#javaModal"
           >
@@ -634,7 +648,7 @@
             aria-labelledby="javaModalLabel"
             aria-hidden="true"
           >
-            <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-dialog skill-modal modal-dialog-centered">
               <div class="modal-content">
                 <div class="modal-header">
                   <h5 class="modal-title" id="javaModalLabel">Java</h5>
@@ -662,7 +676,7 @@
 
           <!-- C++ Modal -->
           <button
-            class="btn btn-primary m-1"
+            class="btn btn-primary m-1 btn-lg"
             data-bs-toggle="modal"
             data-bs-target="#cppModal"
           >
@@ -675,7 +689,7 @@
             aria-labelledby="cppModalLabel"
             aria-hidden="true"
           >
-            <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-dialog skill-modal modal-dialog-centered">
               <div class="modal-content">
                 <div class="modal-header">
                   <h5 class="modal-title" id="cppModalLabel">C++</h5>
@@ -701,7 +715,7 @@
           </div>
 
           <button
-            class="btn btn-primary m-1"
+            class="btn btn-primary m-1 btn-lg"
             data-bs-toggle="modal"
             data-bs-target="#git"
           >
@@ -714,7 +728,7 @@
             aria-labelledby="cppModalLabel"
             aria-hidden="true"
           >
-            <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-dialog skill-modal modal-dialog-centered">
               <div class="modal-content">
                 <div class="modal-header">
                   <h5 class="modal-title" id="gitModalLabel">Git</h5>
@@ -725,6 +739,91 @@
                     changes in code, supports collaboration, and allows
                     branching and merging. Commonly used with platforms like
                     GitHub, it helps manage project history and workflow.
+                  </p>
+                </div>
+                <div class="modal-footer">
+                  <button
+                    type="button"
+                    class="btn btn-secondary"
+                    data-bs-dismiss="modal"
+                  >
+                    Close
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <button
+            class="btn btn-primary m-1 btn-lg"
+            data-bs-toggle="modal"
+            data-bs-target="#api"
+          >
+            Api
+          </button>
+          <div
+            class="modal fade"
+            id="api"
+            tabindex="-1"
+            aria-labelledby="cppModalLabel"
+            aria-hidden="true"
+          >
+            <div class="modal-dialog skill-modal modal-dialog-centered">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="gitModalLabel">Api</h5>
+                </div>
+                <div class="modal-body">
+                  <p>
+                    An API is a set of rules and protocols for building and
+                    interacting with software applications. It defines how
+                    different software components should communicate, supports
+                    integration, and enables functionality sharing. Commonly
+                    used with web services, it facilitates data exchange and
+                    process automation.
+                  </p>
+                </div>
+                <div class="modal-footer">
+                  <button
+                    type="button"
+                    class="btn btn-secondary"
+                    data-bs-dismiss="modal"
+                  >
+                    Close
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <button
+            class="btn btn-primary m-1 btn-lg"
+            data-bs-toggle="modal"
+            data-bs-target="#wordPress"
+          >
+            WordPress
+          </button>
+          <div
+            class="modal fade"
+            id="wordPress"
+            tabindex="-1"
+            aria-labelledby="cppModalLabel"
+            aria-hidden="true"
+          >
+            <div class="modal-dialog skill-modal modal-dialog-centered">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="gitModalLabel">WordPress</h5>
+                </div>
+                <div class="modal-body">
+                  <p>
+                    WordPress is a content management system (CMS) that enables
+                    users to create and manage websites and blogs. It offers a
+                    range of themes and plugins for customization, supports
+                    various media types, and provides tools for SEO and
+                    analytics. Commonly used for its ease of use and
+                    flexibility, it powers a significant portion of websites
+                    globally.
                   </p>
                 </div>
                 <div class="modal-footer">
@@ -787,7 +886,7 @@
             aria-labelledby="infoModalLabel1"
             aria-hidden="true"
           >
-            <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-dialog project-info modal-dialog-centered">
               <div class="modal-content">
                 <div class="modal-header">
                   <h5 class="modal-title" id="htmlModalLabel">
@@ -860,36 +959,140 @@
             aria-labelledby="htmlModalLabel"
             aria-hidden="true"
           >
-            <div class="modal-dialog modal-lg modal-dialog-centered">
+            <div class="modal-dialog modal-sm modal-dialog-centered">
               <div class="modal-content">
                 <div class="modal-header">
                   <h5 class="modal-title" id="htmlModalLabel">
                     FIRMS: Fire Incidents Reports Management System
                   </h5>
-                  <button
-                    type="button"
-                    class="btn-close"
-                    data-bs-dismiss="modal"
-                    aria-label="Close"
-                  ></button>
                 </div>
                 <div class="modal-body">
-                  <div id="carouselExample" class="carousel slide">
+                  <div
+                    id="carouselFirmsCaptions"
+                    class="carousel carousel-dark slide"
+                  >
+                    <div class="carousel-indicators">
+                      <button
+                        type="button"
+                        data-bs-target="#carouselFirmsCaptions"
+                        data-bs-slide-to="0"
+                        class="active"
+                        aria-current="true"
+                        aria-label="Slide 1"
+                      ></button>
+                      <button
+                        type="button"
+                        data-bs-target="#carouselFirmsCaptions"
+                        data-bs-slide-to="1"
+                        aria-label="Slide 2"
+                      ></button>
+                      <button
+                        type="button"
+                        data-bs-target="#carouselFirmsCaptions"
+                        data-bs-slide-to="2"
+                        aria-label="Slide 3"
+                      ></button>
+                      <button
+                        type="button"
+                        data-bs-target="#carouselFirmsCaptions"
+                        data-bs-slide-to="3"
+                        aria-label="Slide 4"
+                      ></button>
+                      <button
+                        type="button"
+                        data-bs-target="#carouselFirmsCaptions"
+                        data-bs-slide-to="4"
+                        aria-label="Slide 5"
+                      ></button>
+                      <button
+                        type="button"
+                        data-bs-target="#carouselFirmsCaptions"
+                        data-bs-slide-to="5"
+                        aria-label="Slide 6"
+                      ></button>
+                      <button
+                        type="button"
+                        data-bs-target="#carouselFirmsCaptions"
+                        data-bs-slide-to="6"
+                        aria-label="Slide 7"
+                      ></button>
+                    </div>
                     <div class="carousel-inner">
                       <div class="carousel-item active">
-                        <img src="images/about.jpg" class="d-block h-100 w-100" alt="..." />
+                        <img
+                          src="images/projects/firms/1.png"
+                          class="d-block w-100"
+                          alt="..."
+                        />
+                        <div class="carousel-caption d-none d-md-block">
+                          <h3><b>Operation Clerk Dashboard</b></h3>
+                        </div>
                       </div>
                       <div class="carousel-item">
-                        <img src="images/FIRMS_dashboard.png" class="d-block w-100" alt="..." />
+                        <img
+                          src="images/projects/firms/2.png"
+                          class="d-block w-100"
+                          alt="..."
+                        />
+                        <div class="carousel-caption d-none d-md-block">
+                          <h3><b>Operation List</b></h3>
+                        </div>
                       </div>
                       <div class="carousel-item">
-                        <img src="images/image.png" class="d-block w-100" alt="..." />
+                        <img
+                          src="images/projects/firms/3.png"
+                          class="d-block w-100"
+                          alt="..."
+                        />
+                        <div class="carousel-caption d-none d-md-block">
+                          <h3><b>Operation Create Form</b></h3>
+                        </div>
+                      </div>
+                      <div class="carousel-item">
+                        <img
+                          src="images/projects/firms/4.png"
+                          class="d-block w-100"
+                          alt="..."
+                        />
+                        <div class="carousel-caption d-none d-md-block">
+                          <h3><b>Investigation List</b></h3>
+                        </div>
+                      </div>
+                      <div class="carousel-item">
+                        <img
+                          src="images/projects/firms/5.png"
+                          class="d-block w-100"
+                          alt="..."
+                        />
+                        <div class="carousel-caption d-none d-md-block">
+                          <h3><b>User Profile</b></h3>
+                        </div>
+                      </div>
+                      <div class="carousel-item">
+                        <img
+                          src="images/projects/firms/6.png"
+                          class="d-block w-100"
+                          alt="..."
+                        />
+                        <div class="carousel-caption d-none d-md-block">
+                          <h3><b>Personnel Lis</b>t</h3>
+                        </div>
+                      </div>
+                      <div class="carousel-item">
+                        <img
+                          src="images/projects/firms/7.png"
+                          class="d-block w-100"
+                          alt="..."
+                        />
+                        <div class="carousel-caption d-none d-md-block">
+                          <h3><b>Logs</b></h3>
+                        </div>
                       </div>
                     </div>
                     <button
                       class="carousel-control-prev"
                       type="button"
-                      data-bs-target="#carouselExample"
+                      data-bs-target="#carouselFirmsCaptions"
                       data-bs-slide="prev"
                     >
                       <span
@@ -901,7 +1104,7 @@
                     <button
                       class="carousel-control-next"
                       type="button"
-                      data-bs-target="#carouselExample"
+                      data-bs-target="#carouselFirmsCaptions"
                       data-bs-slide="next"
                     >
                       <span
@@ -940,11 +1143,283 @@
                 >
               </h5>
               <p class="card-text">
-                Front-end: HTML, CSS, Javascript, Bootstrap, Graph.js,
+                Front-end: HTML, CSS, Javascript, Bootstrap, Graphs.js,
                 FullCalendar <br />
-                Back-end: Laravel, PHP, MySQL, JQuery
+                Back-end: Laravel, PHP, MySQL, JQuery,
               </p>
-              <a href="#" class="btn btn-primary">Go somewhere</a>
+              <button
+                class="btn btn-primary m-1"
+                data-bs-toggle="modal"
+                data-bs-target="#infoModal2"
+              >
+                View Info
+              </button>
+              <button
+                class="btn btn-primary m-1"
+                data-bs-toggle="modal"
+                data-bs-target="#viewSnapShots2"
+              >
+                View Snapshots
+              </button>
+            </div>
+          </div>
+          <div
+            class="modal fade"
+            id="infoModal2"
+            tabindex="-1"
+            aria-labelledby="infoModalLabel2"
+            aria-hidden="true"
+          >
+            <div class="modal-dialog project-info modal-dialog-centered">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="htmlModalLabel">
+                    Medicare: Patient Data Management System with Data Analytics
+                  </h5>
+                </div>
+                <div class="modal-body">
+                  <p>
+                    An effective management system is indispensable in
+                    healthcare as it facilitates workflows, enhances
+                    coordination among healthcare professionals, and improves
+                    patient outcomes. The current state of the global healthcare
+                    system has become increasingly concerning, with many
+                    individuals facing difficulties when it comes to accessing
+                    quality care. To address these issues, a patient data
+                    management system was developed for Medical Mission Group
+                    Hospital and Health Services Cooperative of Camarines Sur
+                    that provides better patient care and improved security:
+                    <br />
+                    <b>1. Patient Data Management:</b> The system efficiently
+                    handles the storage, organization, and retrieval of patient
+                    data, ensuring all details are securely managed and easily
+                    accessible.
+                    <br />
+                    <b>2. Workflow Enhancement:</b> It facilitates seamless
+                    coordination among healthcare professionals, improving
+                    overall workflow and patient care efficiency.
+                    <br />
+                    <b>3. Data Analytics:</b> The system incorporates data
+                    analytics to provide insights, enhancing the accuracy and
+                    timeliness of patient information management.
+                    <br />
+                    <b>4. Security and Confidentiality:</b> The system features
+                    robust security measures to protect sensitive patient
+                    information, ensuring data confidentiality.
+                    <br />
+                    <b>5. User Acceptance and Integration:</b> The system is
+                    well-received by employees (super admin, admin, doctors,
+                    nurses, and patients) and performs successfully in
+                    integration tests.
+                    <br />
+                    <b>6. Research and Development:</b> The system’s efficiency
+                    and functionality were demonstrated through thorough
+                    analysis and testing, including the use of weighted mean,
+                    performance, and user acceptance tests.
+                    <br />
+                  </p>
+                </div>
+                <div class="modal-footer">
+                  <button
+                    type="button"
+                    class="btn btn-secondary"
+                    data-bs-dismiss="modal"
+                  >
+                    Close
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="modal fade"
+            id="viewSnapShots2"
+            tabindex="-1"
+            aria-labelledby="htmlModalLabel"
+            aria-hidden="true"
+          >
+            <div class="modal-dialog modal-sm modal-dialog-centered">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="htmlModalLabel">
+                    FIRMS: Fire Incidents Reports Management System
+                  </h5>
+                </div>
+                <div class="modal-body">
+                  <div
+                    id="carouselMedicareCaptions"
+                    class="carousel carousel-dark slide"
+                  >
+                    <div class="carousel-indicators">
+                      <button
+                        type="button"
+                        data-bs-target="#carouselMedicareCaptions"
+                        data-bs-slide-to="0"
+                        class="active"
+                        aria-current="true"
+                        aria-label="Slide 1"
+                      ></button>
+                      <button
+                        type="button"
+                        data-bs-target="#carouselMedicareCaptions"
+                        data-bs-slide-to="1"
+                        aria-label="Slide 2"
+                      ></button>
+                      <button
+                        type="button"
+                        data-bs-target="#carouselMedicareCaptions"
+                        data-bs-slide-to="2"
+                        aria-label="Slide 3"
+                      ></button>
+                      <button
+                        type="button"
+                        data-bs-target="#carouselMedicareCaptions"
+                        data-bs-slide-to="3"
+                        aria-label="Slide 4"
+                      ></button>
+                      <button
+                        type="button"
+                        data-bs-target="#carouselMedicareCaptions"
+                        data-bs-slide-to="4"
+                        aria-label="Slide 5"
+                      ></button>
+                      <button
+                        type="button"
+                        data-bs-target="#carouselMedicareCaptions"
+                        data-bs-slide-to="5"
+                        aria-label="Slide 6"
+                      ></button>
+                      <button
+                        type="button"
+                        data-bs-target="#carouselMedicareCaptions"
+                        data-bs-slide-to="6"
+                        aria-label="Slide 7"
+                      ></button>
+                      <button
+                        type="button"
+                        data-bs-target="#carouselMedicareCaptions"
+                        data-bs-slide-to="7"
+                        aria-label="Slide 8"
+                      ></button>
+                    </div>
+                    <div class="carousel-inner">
+                      <div class="carousel-item active">
+                        <img
+                          src="images/projects/medicare/login.png"
+                          class="d-block w-100"
+                          alt="..."
+                        />
+                        <div class="carousel-caption d-none d-md-block">
+                          <h3><b>Login</b></h3>
+                        </div>
+                      </div>
+                      <div class="carousel-item">
+                        <img
+                          src="images/projects/medicare/user appointment.png"
+                          class="d-block w-100"
+                          alt="..."
+                        />
+                        <div class="carousel-caption d-none d-md-block">
+                          <h3><b>User Appointment</b></h3>
+                        </div>
+                      </div>
+                      <div class="carousel-item">
+                        <img
+                          src="images/projects/medicare/doctor dashboard.png"
+                          class="d-block w-100"
+                          alt="..."
+                        />
+                        <div class="carousel-caption d-none d-md-block">
+                          <h3><b>Doctor Dashboard</b></h3>
+                        </div>
+                      </div>
+                      <div class="carousel-item">
+                        <img
+                          src="images/projects/medicare/admin dashboard.png"
+                          class="d-block w-100"
+                          alt="..."
+                        />
+                        <div class="carousel-caption d-none d-md-block">
+                          <h3><b>Admin Dashboard</b></h3>
+                        </div>
+                      </div>
+                      <div class="carousel-item">
+                        <img
+                          src="images/projects/medicare/patient management by admin.png"
+                          class="d-block w-100"
+                          alt="..."
+                        />
+                        <div class="carousel-caption d-none d-md-block">
+                          <h3><b>Patient Management</b></h3>
+                        </div>
+                      </div>
+                      <div class="carousel-item">
+                        <img
+                          src="images/projects/medicare/demographics.png"
+                          class="d-block w-100"
+                          alt="..."
+                        />
+                        <div class="carousel-caption d-none d-md-block">
+                          <h3><b>Demographics</b>t</h3>
+                        </div>
+                      </div>
+                      <div class="carousel-item">
+                        <img
+                          src="images/projects/medicare/superadmin dashboard.png"
+                          class="d-block w-100"
+                          alt="..."
+                        />
+                        <div class="carousel-caption d-none d-md-block">
+                          <h3><b>Super Admin Dashboard</b></h3>
+                        </div>
+                      </div>
+                      <div class="carousel-item">
+                        <img
+                          src="images/projects/medicare/generate analytics report.png"
+                          class="d-block w-100"
+                          alt="..."
+                        />
+                        <div class="carousel-caption d-none d-md-block">
+                          <h3><b>generate Analytics Report</b></h3>
+                        </div>
+                      </div>
+                    </div>
+                    <button
+                      class="carousel-control-prev"
+                      type="button"
+                      data-bs-target="#carouselMedicareCaptions"
+                      data-bs-slide="prev"
+                    >
+                      <span
+                        class="carousel-control-prev-icon"
+                        aria-hidden="true"
+                      ></span>
+                      <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button
+                      class="carousel-control-next"
+                      type="button"
+                      data-bs-target="#carouselMedicareCaptions"
+                      data-bs-slide="next"
+                    >
+                      <span
+                        class="carousel-control-next-icon"
+                        aria-hidden="true"
+                      ></span>
+                      <span class="visually-hidden">Next</span>
+                    </button>
+                  </div>
+                </div>
+                <div class="modal-footer">
+                  <button
+                    type="button"
+                    class="btn btn-secondary"
+                    data-bs-dismiss="modal"
+                  >
+                    Close
+                  </button>
+                </div>
+              </div>
             </div>
           </div>
         </div>
