@@ -15,6 +15,9 @@
       integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
       crossorigin="anonymous"
     />
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
     <link rel="stylesheet" href="style/style.css" />
     <title>Portfolio | Craig Ben Cadag</title>
   </head>
@@ -48,7 +51,7 @@
               <a class="nav-link" href="#skill">Skills</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Projects</a>
+              <a class="nav-link" href="#project">Projects</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#">Experience</a>
@@ -124,7 +127,7 @@
       id="skill"
     >
       <div class="col-6 text-center">
-        <h1>skills</h1>
+        <h1>Skills</h1>
       </div>
       <div class="col-6 p-5">
         <div class="d-flex flex-wrap justify-content-center">
@@ -696,10 +699,290 @@
               </div>
             </div>
           </div>
+
+          <button
+            class="btn btn-primary m-1"
+            data-bs-toggle="modal"
+            data-bs-target="#git"
+          >
+            Git
+          </button>
+          <div
+            class="modal fade"
+            id="git"
+            tabindex="-1"
+            aria-labelledby="cppModalLabel"
+            aria-hidden="true"
+          >
+            <div class="modal-dialog modal-dialog-centered">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="gitModalLabel">Git</h5>
+                </div>
+                <div class="modal-body">
+                  <p>
+                    Git is a distributed version control system. It tracks
+                    changes in code, supports collaboration, and allows
+                    branching and merging. Commonly used with platforms like
+                    GitHub, it helps manage project history and workflow.
+                  </p>
+                </div>
+                <div class="modal-footer">
+                  <button
+                    type="button"
+                    class="btn btn-secondary"
+                    data-bs-dismiss="modal"
+                  >
+                    Close
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </div>
 
+    <!-- Projects -->
+    <div class="container project section" id="project">
+      <div class="row text-center mt-5">
+        <h1>Projects</h1>
+      </div>
+      <div class="row d-flex justify-content-between mt-5">
+        <div class="col-6">
+          <div class="card w-30 m-1 p-3 custom-card">
+            <img
+              src="images/FIRMS_dashboard.png"
+              class="card-img-top"
+              alt="Card Image"
+            />
+            <div class="card-body">
+              <h5 class="card-title">
+                <b>FIRMS: Fire Incidents Reports Management System</b>
+              </h5>
+              <p class="card-text">
+                Front-end: HTML, CSS, Javascript, Bootstrap <br />
+                Back-end: Laravel, PHP, MySQL, JQuery
+              </p>
+              <button
+                class="btn btn-primary m-1"
+                data-bs-toggle="modal"
+                data-bs-target="#infoModal1"
+              >
+                View Info
+              </button>
+              <button
+                class="btn btn-primary m-1"
+                data-bs-toggle="modal"
+                data-bs-target="#viewSnapShots1"
+              >
+                View Snapshots
+              </button>
+            </div>
+          </div>
+          <div
+            class="modal fade"
+            id="infoModal1"
+            tabindex="-1"
+            aria-labelledby="infoModalLabel1"
+            aria-hidden="true"
+          >
+            <div class="modal-dialog modal-dialog-centered">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="htmlModalLabel">
+                    FIRMS: Fire Incidents Reports Management System
+                  </h5>
+                </div>
+                <div class="modal-body">
+                  <p>
+                    <b>FIRMS</b> is a comprehensive system designed to
+                    streamline the management of fire incident reports, focusing
+                    on operational efficiency and investigative accuracy. This
+                    system offers robust capabilities tailored for fire
+                    departments and related agencies:
+                    <br />
+                    <b>1. Report Management:</b> FIRMS efficiently handles the
+                    storage, organization, and retrieval of fire incident
+                    reports, ensuring all details are securely managed and
+                    easily accessible.
+                    <br />
+                    <b>2. Operation and Investigation:</b> The system supports
+                    the management of both operational reports (incident
+                    response details, equipment used, etc.) and investigative
+                    reports (cause analysis, findings, recommendations, etc.),
+                    aiding in comprehensive incident management.
+                    <br />
+                    <b>3. Exporting and Importing Reports:</b> FIRMS facilitates
+                    seamless export and import functionalities, allowing reports
+                    to be shared across departments or with external agencies
+                    while maintaining data integrity.
+                    <br />
+                    <b>4. Personnel Information Management:</b> It includes
+                    modules for managing personnel information, such as
+                    firefighter details, training records, certifications, and
+                    contact information, ensuring efficient resource allocation
+                    and personnel management.
+                    <br />
+                    <b>5. Files Management:</b> The system allows for the secure
+                    storage and management of various files related to fire
+                    incidents, including photos, videos, witness statements, and
+                    official documents.
+                    <br />
+                    <b>6. Secure Login:</b> FIRMS features a robust
+                    authentication system with secure login credentials,
+                    ensuring authorized access to sensitive information and
+                    maintaining data confidentiality.
+                    <br />
+                    <b>7. Report Trash and Retrieval:</b> Users can manage
+                    reports effectively with features like report trash
+                    (temporary storage before permanent deletion) and report
+                    retrieval (quick access to archived or deleted reports as
+                    needed).
+                  </p>
+                </div>
+                <div class="modal-footer">
+                  <button
+                    type="button"
+                    class="btn btn-secondary"
+                    data-bs-dismiss="modal"
+                  >
+                    Close
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="modal fade"
+            id="viewSnapShots1"
+            tabindex="-1"
+            aria-labelledby="htmlModalLabel"
+            aria-hidden="true"
+          >
+            <div class="modal-dialog modal-lg modal-dialog-centered">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="htmlModalLabel">
+                    FIRMS: Fire Incidents Reports Management System
+                  </h5>
+                  <button
+                    type="button"
+                    class="btn-close"
+                    data-bs-dismiss="modal"
+                    aria-label="Close"
+                  ></button>
+                </div>
+                <div class="modal-body">
+                  <div
+                    id="carouselExampleIndicators"
+                    class="carousel slide"
+                    data-ride="carousel"
+                  >
+                    <ol class="carousel-indicators">
+                      <li
+                        data-target="#carouselExampleIndicators"
+                        data-slide-to="0"
+                        class="active"
+                      ></li>
+                      <li
+                        data-target="#carouselExampleIndicators"
+                        data-slide-to="1"
+                      ></li>
+                      <li
+                        data-target="#carouselExampleIndicators"
+                        data-slide-to="2"
+                      ></li>
+                    </ol>
+                    <div class="carousel-inner">
+                      <div class="carousel-item active">
+                        <img
+                          src="images/about.jpg"
+                          class="d-block w-100"
+                          alt="Slide 1"
+                        />
+                      </div>
+                      <div class="carousel-item">
+                        <img
+                          src="images/FIRMS_dashboard.png"
+                          class="d-block w-100"
+                          alt="Slide 2"
+                        />
+                      </div>
+                      <div class="carousel-item">
+                        <img
+                          src="images/medicare_dashboard.png"
+                          class="d-block w-100"
+                          alt="Slide 3"
+                        />
+                      </div>
+                    </div>
+                    <a
+                      class="carousel-control-prev"
+                      href="#carouselExampleIndicators"
+                      role="button"
+                      data-slide="prev"
+                    >
+                      <span
+                        class="carousel-control-prev-icon"
+                        aria-hidden="true"
+                      ></span>
+                      <span class="visually-hidden">Previous</span>
+                    </a>
+                    <a
+                      class="carousel-control-next"
+                      href="#carouselExampleIndicators"
+                      role="button"
+                      data-slide="next"
+                    >
+                      <span
+                        class="carousel-control-next-icon"
+                        aria-hidden="true"
+                      ></span>
+                      <span class="visually-hidden">Next</span>
+                    </a>
+                  </div>
+                </div>
+                <div class="modal-footer">
+                  <button
+                    type="button"
+                    class="btn btn-secondary"
+                    data-bs-dismiss="modal"
+                  >
+                    Close
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-6">
+          <div class="card w-30 m-1 p-3 custom-card">
+            <img
+              src="images/medicare_dashboard.png"
+              class="card-img-top"
+              alt="Card Image"
+            />
+            <div class="card-body">
+              <h5 class="card-title">
+                <b
+                  >MediCare: Patient Data Management System with Data
+                  Analytics</b
+                >
+              </h5>
+              <p class="card-text">
+                Front-end: HTML, CSS, Javascript, Bootstrap, Graph.js,
+                FullCalendar <br />
+                Back-end: Laravel, PHP, MySQL, JQuery
+              </p>
+              <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Javascript -->
     <script>
       document.addEventListener("DOMContentLoaded", function () {
         const navLinks = document.querySelectorAll(".navbar-nav .nav-link");
@@ -746,6 +1029,7 @@
       window.addEventListener("DOMContentLoaded", updateActiveLink);
     </script>
 
+    <!-- Bootstrap Script -->
     <script
       src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
       integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
