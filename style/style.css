@@ -249,7 +249,11 @@
 .contact-card{
   border: 1px solid #007bff;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  max-width: 100vh;
+  max-width: 80vh;
   border-radius: 40px;
+}
+
+.links i {
+  font-size: 40px;
 }
 
